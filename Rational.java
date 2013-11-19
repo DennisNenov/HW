@@ -1,44 +1,7 @@
-/*
-Phase I:
-
-
-Example of multiply:
-Rational r = new Rational(2,3); //Stores the rational number 2/3
-Rational s = new Rational(1,2); //Stores the rational number 1/2
-r.multiply(s); //Multiplies r by s, changes r to 2/6.  s remains ½
-
-
-Phase II:
-	add
-	Takes 1 Rational object (just like multiply) and adds it to the current rational number object
-	Need not reduce
-	subtract
-	Works the same as add, except the operation is subtraction
-	gcd
-	Returns the gcd of the numerator and denominator
-	Uses Euclid's algorithm (reuse your old code!)
-	Recall that in order for Euclid's algorithm to work, the first number must be greater than the second
-	reduce
-	Changes this Rational to one in reduced form (should use gcd)
-
-Examples for add, reduce:
-Rational r = new Rational(2,3); //Stores the rational number 2/3
-Rational s = new Rational(1,2); //Stores the rational number 1/2
-Rational t = new Rational(4,18); //Stores the rational number 4/18
-r.add(s);  //Adds r to s, changes r to 7/6.  s remains 1/2 
-t.reduce(); //Changes t to 2/9
-
-
-Phase III:
-	Add a static gcd method that will take numerator and denominator inputs.
-	Add a method called compareTo that...
-	Takes a Rational as a parameter and compares it to the calling object
-	Returns 0 if the two numbers are equal
-	Returns a positive integer if the calling number is larger than the parameter
-	Returns a negative integer if the calling number is smaller than the parameter
-
-
-*/
+//Dennis Nenov
+//HW 27
+//Period 9
+//2013-11-19
 public class Rational
 {
 	public int numerator, denominator;
